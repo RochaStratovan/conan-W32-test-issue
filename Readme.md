@@ -18,3 +18,5 @@ If I run the executable from the command line it is printed.
 * conan 2.0.17
 
 The issue has been observed running the commands from the windows `cmd` prompt as well as from a `git bash` windows.
+
+This [Logs.md](./Logs.md) file shows the results.
