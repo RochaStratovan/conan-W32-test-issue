@@ -1,12 +1,7 @@
 #include "simple.h"
-#include <vector>
-#include <string>
+#include <stdio.h>
 
 int main() {
     simple();
-
-    std::vector<std::string> vec;
-    vec.push_back("test_package");
-
-    simple_print_vector(vec);
+    printf("We are now done.\n\n");
 }
