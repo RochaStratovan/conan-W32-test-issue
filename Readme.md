@@ -1,5 +1,7 @@
 This repository illustrates and issue I observed with Conan 2.0 running package verification test for Windows 32 images. This is a consistent issue for 32B Windows packages.
 
+[Link to Conan issue](https://github.com/conan-io/conan/issues/15567)
+
 The repository defines a static library `simple.lib` that provides a function `void simple(void)` that uses `printf` to display a message.
 
 The conan `test_package` functionality invokes `simple()` and then prints out it's own message.
