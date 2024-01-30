@@ -16,6 +16,7 @@ If I run the executable from the command line it is printed.
 * cmake 3.23.1
 * git 2.42.0.windows.2
 * conan 2.0.17
+* python 3.12.1
 
 The issue has been observed running the commands from the windows `cmd` prompt as well as from a `git bash` windows.
 
